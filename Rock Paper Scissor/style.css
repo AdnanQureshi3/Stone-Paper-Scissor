@@ -1,0 +1,105 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+body{
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(
+        10deg,
+        #ffcf1b,
+        #ff8b1b, 
+        #ffff12
+    );
+}
+.container{
+    background-color: white;
+    height: 70vh;
+    width: 45%;
+    min-width: 500px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+.choises{
+    width: 90%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+}
+.option{
+    width: 25%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 10px 25px 20px rgba(0,0,0,0.5);
+}
+#rock{
+    background-image: url("Assets/rock.png");
+}
+#paper{
+    background-image: url("Assets/paper.png");
+}
+#scissor{
+    background-image: url("Assets/scissor.png");
+
+}
+.score{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: -10px;
+    text-align: right;
+    position: relative;
+    top: 10px;
+    padding-right: 10px;
+}
+.details{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+#result{
+    background-color: #ff8b1b;
+    width: 24%;
+    font-size: 22px;
+    font-weight: 600;
+    border: rgb(100, 239, 130);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    border: solid ;
+
+}
+.option:hover {
+    border: solid 6px ;
+    width: 30%;
+}
+.hide{
+    visibility: hidden;   
+}
+#reset{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.5);
+    padding: 0px 7px;
+    /* border: solid; */
+}
+
+
+
+
+
+
+
