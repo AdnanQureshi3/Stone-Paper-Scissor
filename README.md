@@ -1,2 +1,2 @@
-# Stone-Paper-Scissor
-Stone Paper Scissor game using HTML, CSS and JavaScript
+#demo Link
+https://adnanqureshi3.github.io/Stone-Paper-Scissor-Game/
